@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Symphonie des Rats Pantomimes</title>
+    <link rel="icon" href="ratlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Tout le contenu de ton site ici -->
+    </div>
+    <div id="background"></div>
+    <canvas id="canvas"></canvas>
+    <script src="script.js"></script>
+    <script>
+        window.onload = function() {
+            if (window.innerWidth !== 500 || window.innerHeight !== 500) {
+                window.resizeTo(500, 500);
+            }
+        };
+    </script>
+</body>
+</html>
